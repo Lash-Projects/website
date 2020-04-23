@@ -39,7 +39,7 @@
                         <!-- Team -->
                         <div class="row mt-60">
                             <div class="col-md-12">
-                                <h3>Professional <span>Team</span></h3>
+                                <h3>The <span>Team</span></h3>
                                 <br />
                             </div>
                             <div class="col-md-4">
