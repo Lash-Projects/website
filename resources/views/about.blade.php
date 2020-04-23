@@ -48,7 +48,7 @@
                                     <div class="team-image-holder"> <img src="{{ URL::asset('images/team/01.jpg') }}" class="img-fluid" alt="">
                                         <div class="team-side-info">
                                             <h4 class="team-name">Seyram </h4>
-                                            <h6 class="team-position">Fashion &amp; Wedding</h6>
+                                            <h6 class="team-position">Photographer</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                                     <div class="team-image-holder"> <img src="{{ URL::asset('images/team/02.jpg') }}" class="img-fluid" alt="">
                                         <div class="team-side-info">
                                             <h4 class="team-name">Fiifi </h4>
-                                            <h6 class="team-position">Fashion &amp; Wedding</h6>
+                                            <h6 class="team-position">Photographer</h6>
                                         </div>
                                     </div>
                                 </div>

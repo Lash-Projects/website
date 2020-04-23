@@ -11,6 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content=" width=device-width, initial-scale=1">
+    <meta name="description" content="A collection of well grouped photo arts. Copyright © 2020. Designed by Emmanuel Asaber">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <title>@yield('title') | Lashpixel</title>
     <link href="{{ URL::asset('css/animate.css') }}" rel="stylesheet" type="text/css">
