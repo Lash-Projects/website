@@ -16,7 +16,7 @@
     <link href="{{ URL::asset('css/animate.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/font-awesome.css') }}" rel="stylesheet" type="text/css">
-    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('css/swiper.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/jquery.fancybox.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -32,5 +32,18 @@
 </head>
 
 <body>
-    
+    <!-- Page Preloader -->
+    <div id="Lfa-page-loading" class="pozo-pageloading">
+        <div class="pozo-pageloading-inner"> <img src="{{ URL::asset('images/logo.png') }}" class="logo" alt=""> </div>
+    </div>
+
+
+    <!-- Js -->
+    <script src="{{ URL::asset('js/plugins/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/bootstrap.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/modernizr-2.6.2.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/swiper.min.js') }}"></script>
+    <script src="{{ URL::asset('js/plugins/jquery.fancybox.min.js') }}"></script>
+    <!-- <script src="{{ URL::asset('js/script.js') }}"></script> -->
 </body>
