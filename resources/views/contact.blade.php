@@ -16,11 +16,11 @@
                     <!-- Info -->
                     <div class="col-md-6 mb-60 animate-box" data-animate-effect="fadeInUp">
                         <h4>Phone</h4>
-                        <p>+1 650-333-0000</p>
+                        <p>+233 503-123-939</p>
                         <h4>Email</h4>
-                        <p>photography@pozo.com</p>
+                        <p>lashpixel@gmail.com</p>
                         <h4>Address</h4>
-                        <p>340 North First Street, San Jose, CA 95112, US.</p>
+                        <p>PT 192, Race Course Ridge, Takoradi.</p>
                     </div>
                     <!-- Contact Form -->
                     <div class="col-md-6 mb-60 animate-box" data-animate-effect="fadeInUp">
