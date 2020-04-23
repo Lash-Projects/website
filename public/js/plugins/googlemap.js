@@ -8,7 +8,7 @@ function init() {
         // How zoomed in you want the map to start at (always required)
         zoom: 11
         , // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(37.540830, -122.298880), // Alice Springs
+        center: new google.maps.LatLng(4.915482, -1.794272), // Race Course
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
         styles: [

@@ -37,13 +37,81 @@
         <div class="pozo-pageloading-inner"> <img src="{{ URL::asset('images/logo.png') }}" class="logo" alt=""> </div>
     </div>
 
+    <div id="pozo-page-wrapper">
+        <!-- Lines -->
+        <div class="content-lines-wrapper">
+            <div class="content-lines-inner">
+                <div class="content-lines"></div>
+            </div>
+        </div>
+        <!-- Header -->
+        <header>
+            <div class="container pozo-navbar-container">
+                <div class="pozo-navigation-wrap pozo-start-header start-style">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <nav class="navbar navbar-expand-md navbar-light">
+                                    <!-- Logo -->
+                                    <a class="navbar-brand animate-box" data-animate-effect="fadeInUp" href="{{URL::to('/')}}"> <img src="images/logo.png" class="logo" alt=""> </a>
+                                    <!-- Menu -->
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                                    <div class="collapse navbar-collapse animate-box" data-animate-effect="fadeInUp" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link" href="{{URL::to('/')}}">Home</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('about')}}">About</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('albums')}}">Albums</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('contact')}}">Contact</a> </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Slider -->
+        @yield('slider')
+        <!-- Gallery -->
+        @yield('gallery')
+        <!-- Footer -->
+        <footer>
+            <div class="container pozo-footer-container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="pozo-social-icons">
+                            <li class="pozo-social-icons-item">
+                                <a class="pozo-social-link" href="https://www.facebook.com/lashpixel"> <span class="pozo-social-icon fa fa-facebook-f"></span> </a>
+                            </li>
+                            <li class="pozo-social-icons-item">
+                                <a class="pozo-social-link" href="https://www.twitter.com/lashpixel"> <span class="pozo-social-icon fa fa-twitter"></span> </a>
+                            </li>
+                            <li class="pozo-social-icons-item">
+                                <a class="pozo-social-link" href="https://www.instagram.com/lashpixel/"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
+                            </li>
+                            <li class="pozo-social-icons-item">
+                                <a class="pozo-social-link" href="https://www.behance.net/lashpixel"> <span class="pozo-social-icon fa fa-behance"></span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="pozo-copyright">© 2020 <span>Lashpixel</span> All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
 
     <!-- Js -->
+    @yield('pre-script')
+    @yield('post-script')
     <script src="{{ URL::asset('js/plugins/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ URL::asset('js/plugins/bootstrap.min.js') }}"></script>
     <script src="{{ URL::asset('js/plugins/modernizr-2.6.2.min.js') }}"></script>
     <script src="{{ URL::asset('js/plugins/jquery.waypoints.min.js') }}"></script>
     <script src="{{ URL::asset('js/plugins/swiper.min.js') }}"></script>
     <script src="{{ URL::asset('js/plugins/jquery.fancybox.min.js') }}"></script>
-    <!-- <script src="{{ URL::asset('js/script.js') }}"></script> -->
+    <script src="{{ URL::asset('js/script.js') }}"></script>
 </body>
