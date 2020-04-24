@@ -22,4 +22,8 @@ class PagesController extends Controller
         $interval = $currentDate - $startDate;
         return view('about',compact('interval'));
     }
+
+    public function albums() {
+        return view('albums');
+    }
 }

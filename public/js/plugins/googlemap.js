@@ -8,7 +8,7 @@ function init() {
         // How zoomed in you want the map to start at (always required)
         zoom: 13
         , // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(4.915482, -1.794272), // Race Course
+        center: new google.maps.LatLng(4.915323, -1.793984), // Race Course
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
         styles: [
@@ -138,7 +138,7 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(4.915482, -1.794272)
+        position: new google.maps.LatLng(4.915323, -1.793984)
         , map: map
         , title: 'Lashpixel Studio'
     });

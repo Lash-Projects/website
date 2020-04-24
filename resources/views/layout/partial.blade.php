@@ -83,16 +83,16 @@
                     <div class="col-md-8">
                         <ul class="pozo-social-icons">
                             <li class="pozo-social-icons-item">
-                                <a class="pozo-social-link" href="https://www.facebook.com/lashpixel"> <span class="pozo-social-icon fa fa-facebook-f"></span> </a>
+                                <a class="pozo-social-link" href="https://www.facebook.com/lashpixel" target="_blank"> <span class="pozo-social-icon fa fa-facebook-f"></span> </a>
                             </li>
                             <li class="pozo-social-icons-item">
-                                <a class="pozo-social-link" href="https://www.twitter.com/lashpixel"> <span class="pozo-social-icon fa fa-twitter"></span> </a>
+                                <a class="pozo-social-link" href="https://www.twitter.com/lashpixel" target="_blank"> <span class="pozo-social-icon fa fa-twitter"></span> </a>
                             </li>
                             <li class="pozo-social-icons-item">
-                                <a class="pozo-social-link" href="https://www.instagram.com/lashpixel/"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
+                                <a class="pozo-social-link" href="https://www.instagram.com/lashpixel/" target="_blank"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
                             </li>
                             <li class="pozo-social-icons-item">
-                                <a class="pozo-social-link" href="https://www.behance.net/lashpixel"> <span class="pozo-social-icon fa fa-behance"></span> </a>
+                                <a class="pozo-social-link" href="https://www.behance.net/lashpixel" target="_blank"> <span class="pozo-social-icon fa fa-behance"></span> </a>
                             </li>
                         </ul>
                     </div>
