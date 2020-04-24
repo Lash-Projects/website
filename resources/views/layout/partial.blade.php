@@ -59,10 +59,10 @@
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                                     <div class="collapse navbar-collapse animate-box" data-animate-effect="fadeInUp" id="navbarSupportedContent">
                                         <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                            <li class="nav-item pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link" href="{{URL::to('/')}}">Home</a></li>
-                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('about')}}">About</a></li>
-                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('albums')}}">Albums</a></li>
-                                            <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="{{URL::to('contact')}}">Contact</a> </li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4" id="home"> <a class="nav-link" href="{{URL::to('/')}}">Home</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4" id="about"> <a class="nav-link" href="{{URL::to('about')}}">About</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4" id="albums"> <a class="nav-link" href="{{URL::to('albums')}}">Albums</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4" id="contact"> <a class="nav-link" href="{{URL::to('contact')}}">Contact</a> </li>
                                         </ul>
                                     </div>
                                 </nav>

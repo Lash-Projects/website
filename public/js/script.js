@@ -155,4 +155,20 @@
             });
         });
     });
+
+    var pageTitle = document.title;
+    switch(pageTitle) {
+        case 'Home | Lashpixel':
+            $('li#home').addClass('active');
+        break;
+        case 'About | Lashpixel':
+            $('li#about').addClass('active');
+        break;
+        case 'Albums | Lashpixel':
+            $('li#albums').addClass('active');
+        break;
+        case 'Contact | Lashpixel':
+            $('li#contact').addClass('active');
+        break;
+    }
 })(jQuery);
