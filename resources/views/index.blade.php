@@ -22,7 +22,7 @@
                                     Models - Juliana, Sheilla, Esi Oyeman
                                 </p> 
                                 <!-- <a data-swiper-parallax-x="-30%" class="next-link" href="project-page-2.html">Discover</a>  -->
-                                <!-- <span data-swiper-parallax-y="60%" class="next-number animate-box" data-animate-effect="fadeInUp">1</span> -->
+                                <span data-swiper-parallax-y="60%" class="next-number animate-box" data-animate-effect="fadeInUp">1</span>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                                     Worked on this amazing project with The Bluelens Studio from Ghana. Set design by The Blvck Creator
                                 </p> 
                                 <!-- <a data-swiper-parallax-x="-30%" style="z-index: 5;" class="next-link" href="project-page.html">Discover</a>  -->
-                                <!-- <span data-swiper-parallax-y="60%" class="next-number">2</span> -->
+                                <span data-swiper-parallax-y="60%" class="next-number">2</span>
                             </div>
                         </div>
                     </div>
