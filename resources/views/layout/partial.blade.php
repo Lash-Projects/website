@@ -62,6 +62,7 @@
                                             <li class="nav-item pl-md-0 ml-0 ml-md-4" id="home"> <a class="nav-link" href="{{URL::to('/')}}">Home</a></li>
                                             <li class="nav-item pl-md-0 ml-0 ml-md-4" id="about"> <a class="nav-link" href="{{URL::to('about')}}">About</a></li>
                                             <li class="nav-item pl-md-0 ml-0 ml-md-4" id="albums"> <a class="nav-link" href="{{URL::to('albums')}}">Albums</a></li>
+                                            <li class="nav-item pl-md-0 ml-0 ml-md-4" id="gallery"> <a class="nav-link" href="{{URL::to('gallery')}}">Gallery</a></li>
                                             <li class="nav-item pl-md-0 ml-0 ml-md-4" id="contact"> <a class="nav-link" href="{{URL::to('contact')}}">Contact</a> </li>
                                         </ul>
                                     </div>
@@ -90,6 +91,9 @@
                             </li>
                             <li class="pozo-social-icons-item">
                                 <a class="pozo-social-link" href="https://www.instagram.com/lashpixel/" target="_blank"> <span class="pozo-social-icon fa fa-instagram"></span> </a>
+                            </li>
+                            <li class="pozo-social-icons-item">
+                                <a class="pozo-social-link" href="mailto:lashpixel@gmail.com" target="_blank"> <span class="pozo-social-icon fa fa-envelope"></span> </a>
                             </li>
                             <li class="pozo-social-icons-item">
                                 <a class="pozo-social-link" href="https://www.behance.net/lashpixel" target="_blank"> <span class="pozo-social-icon fa fa-behance"></span> </a>
