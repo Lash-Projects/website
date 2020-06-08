@@ -1,76 +1,92 @@
 @extends('layout.partial')
-@section('title','Albums')
+@section('title','Gallery')
 
 @section('slider')
 
-<section class="projects pt-130 mb-60">
-            <div class="container">
-                <div class="row">
-                    <div class="section-head col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
-                        <h4>Albums</h4>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/02.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page-2.html">01.</a>
-                                </span>
-                                <h5><a href="project-page.html">Wedding Shoots</a></h5> <a href="project-page-2.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
+<div class="pozo-section pt-130">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="section-head text-center col-md-12 animate-box" data-animate-effect="fadeInUp">
+                <h4>Gallery</h4>
+            </div>
+            <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/35.jpg" data-caption="The May Project"> <img class="img-fluid" src="images/gallery/35.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/36.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/36.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/45.jpg" data-caption="Agape - Graduations"> <img class="img-fluid" src="images/gallery/45.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/38.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/38.jpg" alt="" /> </a>
+                </figure>
+            </div>
+            <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/44.jpg" data-caption="Juliana - The May Project"> <img class="img-fluid" src="images/gallery/44.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/40.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/40.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/41.jpg" data-caption="Adjoa Dede Kosi - Apex360"> <img class="img-fluid" src="images/gallery/41.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/47.jpg" data-caption="Priscilla - Graduations"> <img class="img-fluid" src="images/gallery/47.jpg" alt="" /> </a>
+                </figure>
+            </div>
+            <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/42.jpg" data-caption="Stephanie Donkor"> <img class="img-fluid" src="images/gallery/42.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/43.jpg" data-caption="Nuseadeli Agordo"> <img class="img-fluid" src="images/gallery/43.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/39.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/39.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/37.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/37.jpg" alt="" /> </a>
+                </figure>
+            </div>
+        </div>
+        <div class="row mb-4 align-items-stretch mt-60">
+            <div class="col-12">
+                <!-- show more -->
+                <div class="pozo-show-more-container">
+                    <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
+                        <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/12.jpg" data-caption="Vestibulum leo velit"> <img class="img-fluid" src="images/gallery/12.jpg" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/05.jpg" data-caption="Etiam imperdiet hendrerit"> <img class="img-fluid" src="images/gallery/05.jpg" alt="" /> </a>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/06.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page.html">02.</a>
-                                </span>
-                                <h5><a href="project-page.html">Portrait Photography</a></h5> <a href="project-page.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
+                        <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/13.jpg" data-caption="Nulla turpis elementum"> <img class="img-fluid" src="images/gallery/13.jpg" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/06.jpg" data-caption="Pellentesque habitant"> <img class="img-fluid" src="images/gallery/06.jpg" alt="" /> </a>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/05.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page.html">03.</a>
-                                </span>
-                                <h5><a href="project-page.html">Travel Photography</a></h5> <a href="project-page.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/04.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page.html">04.</a>
-                                </span>
-                                <h5><a href="project-page.html">Product Photography</a></h5> <a href="project-page.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/01.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page.html">05.</a>
-                                </span>
-                                <h5><a href="project-page.html">Fashion Photography</a></h5> <a href="project-page.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="images/services/03.jpg" alt=""> </div>
-                            <div class="con"> <span class="category">
-                                    <a href="project-page.html">06.</a>
-                                </span>
-                                <h5><a href="project-page.html">Sport Photography</a></h5> <a href="project-page.html"><i class="fa fa-long-arrow-right"></i></a>
-                            </div>
+                        <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/14.jpg" data-caption="Quisque in felis"> <img class="img-fluid" src="images/gallery/14.jpg" alt="" /> </a>
+                            </figure>
                         </div>
                     </div>
                 </div>
+                <!-- add more -->
+                <!-- <div class="pozo-more-wrapper txt-center animate-box" data-animate-effect="fadeInUp">
+                    <a href="index.html#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span> </a>
+                </div> -->
             </div>
-        </section>
+        </div>
+    </div>
+</div>
 
 @stop

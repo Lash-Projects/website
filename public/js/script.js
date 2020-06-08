@@ -169,6 +169,8 @@
         break;
         case 'Contact | Lashpixel':
             $('li#contact').addClass('active');
+        case 'Gallery | Lashpixel':
+            $('li#gallery').addClass('active');
         break;
     }
 })(jQuery);

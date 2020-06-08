@@ -26,4 +26,8 @@ class PagesController extends Controller
     public function albums() {
         return view('albums');
     }
+
+    public function gallery() {
+        return view('gallery');
+    }
 }

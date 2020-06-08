@@ -55,87 +55,90 @@
 @section('gallery')
 
 <div class="pozo-section">
-            <div class="container">
-                <div class="row mb-4">
-                    <div class="section-head text-center col-md-12 animate-box" data-animate-effect="fadeInUp">
-                        <h4>Recent <span>Shots</span></h4>
-                    </div>
-                    <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/01.jpg" data-caption="Quisque in felis"> <img class="img-fluid" src="images/gallery/01.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/02.jpg" data-caption="Pellentesque habitant"> <img class="img-fluid" src="images/gallery/02.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/11.jpg" data-caption="Curabitur convallis"> <img class="img-fluid" src="images/gallery/11.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/03.jpg" data-caption="Quisque in dolor"> <img class="img-fluid" src="images/gallery/03.jpg" alt="" /> </a>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/18.jpg" data-caption="Aliquam non luctus"> <img class="img-fluid" src="images/gallery/18.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/17.jpg" data-caption="Quality in felis"> <img class="img-fluid" src="images/gallery/17.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/16.jpg" data-caption="Vivamus a nisi"> <img class="img-fluid" src="images/gallery/16.jpg" alt="" /> </a>
-                        </figure>
-                    </div>
-                    <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/08.jpg" data-caption="Mauris pretium"> <img class="img-fluid" src="images/gallery/08.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/09.jpg" data-caption="Nunc blandit purus"> <img class="img-fluid" src="images/gallery/09.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/07.jpg" data-caption="Nunc ultrices tellus"> <img class="img-fluid" src="images/gallery/07.jpg" alt="" /> </a>
-                        </figure>
-                        <figure>
-                            <a class="d-block mb-4" data-fancybox="images" href="images/gallery/19.jpg" data-caption="Orci varius natoque"> <img class="img-fluid" src="images/gallery/19.jpg" alt="" /> </a>
-                        </figure>
-                    </div>
-                </div>
-                <!-- show more -->
-                <div class="row mb-4 align-items-stretch mt-60">
-                    <div class="col-12">
-                        <!-- show more -->
-                        <div class="pozo-show-more-container">
-                            <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
-                                <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
-                                    <figure>
-                                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/12.jpg" data-caption="Vestibulum leo velit"> <img class="img-fluid" src="images/gallery/12.jpg" alt="" /> </a>
-                                    </figure>
-                                    <figure>
-                                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/05.jpg" data-caption="Etiam imperdiet hendrerit"> <img class="img-fluid" src="images/gallery/05.jpg" alt="" /> </a>
-                                    </figure>
-                                </div>
-                                <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
-                                    <figure>
-                                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/13.jpg" data-caption="Nulla turpis elementum"> <img class="img-fluid" src="images/gallery/13.jpg" alt="" /> </a>
-                                    </figure>
-                                    <figure>
-                                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/06.jpg" data-caption="Pellentesque habitant"> <img class="img-fluid" src="images/gallery/06.jpg" alt="" /> </a>
-                                    </figure>
-                                </div>
-                                <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
-                                    <figure>
-                                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/14.jpg" data-caption="Quisque in felis"> <img class="img-fluid" src="images/gallery/14.jpg" alt="" /> </a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- add more -->
-                        <div class="pozo-more-wrapper txt-center animate-box" data-animate-effect="fadeInUp">
-                            <a href="index.html#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span> </a>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="row mb-4">
+            <div class="section-head text-center col-md-12 animate-box" data-animate-effect="fadeInUp">
+                <h4>Recent <span>Shots</span></h4>
+            </div>
+            <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/35.jpg" data-caption="The May Project"> <img class="img-fluid" src="images/gallery/35.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/36.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/36.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/45.jpg" data-caption="Agape - Graduations"> <img class="img-fluid" src="images/gallery/45.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/38.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/38.jpg" alt="" /> </a>
+                </figure>
+            </div>
+            <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/44.jpg" data-caption="Juliana - The May Project"> <img class="img-fluid" src="images/gallery/44.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/40.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/40.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/41.jpg" data-caption="Adjoa Dede Kosi - Apex360"> <img class="img-fluid" src="images/gallery/41.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/47.jpg" data-caption="Priscilla - Graduations"> <img class="img-fluid" src="images/gallery/47.jpg" alt="" /> </a>
+                </figure>
+            </div>
+            <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/42.jpg" data-caption="Stephanie Donkor"> <img class="img-fluid" src="images/gallery/42.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                    <a class="d-block mb-4" data-fancybox="images" href="images/gallery/43.jpg" data-caption="Nuseadeli Agordo"> <img class="img-fluid" src="images/gallery/43.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/39.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/39.jpg" alt="" /> </a>
+                </figure>
+                <figure>
+                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/37.jpg" data-caption="Sarah Vanderbek"> <img class="img-fluid" src="images/gallery/37.jpg" alt="" /> </a>
+                </figure>
             </div>
         </div>
+        <!-- show more -->
+        <div class="row mb-4 align-items-stretch mt-60">
+            <div class="col-12">
+                <!-- show more -->
+                <div class="pozo-show-more-container">
+                    <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
+                        <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/12.jpg" data-caption="Vestibulum leo velit"> <img class="img-fluid" src="images/gallery/12.jpg" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/05.jpg" data-caption="Etiam imperdiet hendrerit"> <img class="img-fluid" src="images/gallery/05.jpg" alt="" /> </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/13.jpg" data-caption="Nulla turpis elementum"> <img class="img-fluid" src="images/gallery/13.jpg" alt="" /> </a>
+                            </figure>
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/06.jpg" data-caption="Pellentesque habitant"> <img class="img-fluid" src="images/gallery/06.jpg" alt="" /> </a>
+                            </figure>
+                        </div>
+                        <div class="col-6 col-lg-4 d-none d-lg-block animate-box" data-animate-effect="fadeInUp">
+                            <figure>
+                                <a class="d-block mb-4" data-fancybox="images" href="images/gallery/14.jpg" data-caption="Quisque in felis"> <img class="img-fluid" src="images/gallery/14.jpg" alt="" /> </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <!-- add more -->
+                <!-- <div class="pozo-more-wrapper txt-center animate-box" data-animate-effect="fadeInUp">
+                    <a href="index.html#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span> </a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
 
 @stop
