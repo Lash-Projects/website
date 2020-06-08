@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="pozo-form-component">
-                                    <input type="email" name="email" id="email" placeholder="Email / Phone" required=""> </div>
+                                    <input type="email" name="email" id="email" placeholder="Email" required=""> </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="pozo-form-component">

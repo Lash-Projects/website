@@ -143,6 +143,7 @@ thead {
 button {
     -webkit-appearance: none;
     background: none;
+    cursor: pointer;
 }
 ul {
     list-style-type: none;
